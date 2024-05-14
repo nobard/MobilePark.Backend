@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5F050C08-1719-47B8-A93E-4B52C5E11152}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{0FB516AA-DF04-4BEE-B2B6-3837D35CD969}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A29293F0-4EAB-417F-B41E-B82A85BBAB4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePark.Domain", "MobilePark.Domain\MobilePark.Domain.csproj", "{37B8C175-6418-40BC-A026-E6E10A27CBE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePark.Application", "MobilePark.Application\MobilePark.Application.csproj", "{2BEDB5A7-BCE0-4FFD-9654-9F8BA1786874}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePark.WebApi", "MobilePark.WebApi\MobilePark.WebApi.csproj", "{61B4026B-6127-4DFC-85DA-E691B5AC729F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePark.Infrastructure", "MobilePark.Infrastructure\MobilePark.Infrastructure.csproj", "{512C1F37-88EF-4618-A9B8-FECEBA56F623}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37B8C175-6418-40BC-A026-E6E10A27CBE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B8C175-6418-40BC-A026-E6E10A27CBE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B8C175-6418-40BC-A026-E6E10A27CBE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B8C175-6418-40BC-A026-E6E10A27CBE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BEDB5A7-BCE0-4FFD-9654-9F8BA1786874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEDB5A7-BCE0-4FFD-9654-9F8BA1786874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEDB5A7-BCE0-4FFD-9654-9F8BA1786874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEDB5A7-BCE0-4FFD-9654-9F8BA1786874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B4026B-6127-4DFC-85DA-E691B5AC729F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B4026B-6127-4DFC-85DA-E691B5AC729F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B4026B-6127-4DFC-85DA-E691B5AC729F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B4026B-6127-4DFC-85DA-E691B5AC729F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512C1F37-88EF-4618-A9B8-FECEBA56F623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512C1F37-88EF-4618-A9B8-FECEBA56F623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512C1F37-88EF-4618-A9B8-FECEBA56F623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512C1F37-88EF-4618-A9B8-FECEBA56F623}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37B8C175-6418-40BC-A026-E6E10A27CBE1} = {5F050C08-1719-47B8-A93E-4B52C5E11152}
+		{2BEDB5A7-BCE0-4FFD-9654-9F8BA1786874} = {5F050C08-1719-47B8-A93E-4B52C5E11152}
+		{61B4026B-6127-4DFC-85DA-E691B5AC729F} = {A29293F0-4EAB-417F-B41E-B82A85BBAB4C}
+		{512C1F37-88EF-4618-A9B8-FECEBA56F623} = {0FB516AA-DF04-4BEE-B2B6-3837D35CD969}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA182A33-B046-4999-8C32-4066AC31118D}
+	EndGlobalSection
+EndGlobal
